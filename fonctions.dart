@@ -65,7 +65,6 @@ Conversion(num radians){
   Nouvelles_listes(var liste){
     var motscours = new List();
     var motslongs = new List();
-    
     liste.forEach((nom){
       if(nom.length >= 6) {
         motslongs.add(nom);
